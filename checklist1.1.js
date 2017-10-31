@@ -69,9 +69,9 @@ $(function(){
 		$('#maker-kekka2').html('所有率<em>' + checkRate + '</em>％です。（' + checkLength + '/' + checkLengthAll + '）');
 
 		if ( checkLength != 0) {// 1つ以上選択している
-		$('#maker-twitter1').html('<a href="https://twitter.com/intent/tweet?data-related=rtwiki_net&related=rtwiki_net&text=' + text + checkRate + '%ef%bc%85%e3%81%a7%e3%81%99%20http://pad.rtwiki.net/tool/' + file + '?' + valListShare + '%20%23rtwiki_net%20%23pzdr" target="_blank">結果をツイート</a>');
+		$('#maker-twitter1').html('<a href="https://twitter.com/intent/tweet?data-related=巫剣所属率チェッカー&related=巫剣所属率チェッカー&text=' + text + checkRate + '%ef%bc%85%e3%81%a7%e3%81%99%20http://tenka.html.xdomain.jp/' + file + '?' + valListShare + '%20%23巫剣所属率チェッカー%20%23pzdr" target="_blank">結果をツイート</a>');
 		}else{// 1つも選択していない
-		$('#maker-twitter1').html('<a href="https://twitter.com/intent/tweet?data-related=rtwiki_net&related=rtwiki_net&text=' + text + checkRate + '%ef%bc%85%e3%81%a7%e3%81%99%20http://pad.rtwiki.net/tool/' + file + valListShare + '%20%23rtwiki_net%20%23pzdr" target="_blank">結果をツイート</a>');
+		$('#maker-twitter1').html('<a href="https://twitter.com/intent/tweet?data-related=巫剣所属率チェッカー&related=巫剣所属率チェッカー&text=' + text + checkRate + '%ef%bc%85%e3%81%a7%e3%81%99%20http://tenka.html.xdomain.jp/' + file + valListShare + '%20%23巫剣所属率チェッカー%20%23pzdr" target="_blank">結果をツイート</a>');
 		}
 
 		// アドレスバーのURLを書き換える
